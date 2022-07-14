@@ -22,7 +22,7 @@
 .home main .products_cards article h3{
     margin: 20px 0;
 }
-.home main .products_cards article a{
+.home main .products_cards article a.botonRedireccion{
     background-color: var(--Alfonzo);
     color: white;
     text-transform: uppercase;
