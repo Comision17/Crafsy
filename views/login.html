@@ -26,7 +26,7 @@
                     <ul class="menu">
                         <li><a href="">Smartphones</a></li>
                         <li><a href="">Tablets</a></li>
-                        <li><a href="">Computadoras</a></li>
+                        <li><a href="">Notebooks</a></li>
                     </ul>
                     <ul class="user">
                         <li><a href="/login">Login</a></li>
@@ -37,23 +37,18 @@
         </header>
         <main>
             <h1>Bienvenido</h1>
-            <form action="" method="post">
+            <form action="/login" method="post">
                 <div class="container bottom">
-                    <label for="name">Email</label>
-                    <input type="text" name="name" id="name" placeholder="Ingresa tu email" required>
+                    <input type="text" name="name" id="name" placeholder="Ingresa tu email">
                     <small>Obligatorio</small>
                 </div>
                 <div class="container bottom">
-                    <label for="name">Contraseña</label>
-                    <input type="password" name="name" id="name" placeholder="Ingresa tu contraseña" required>
+                    <input type="password" name="name" id="name" placeholder="Ingresa tu contraseña">
                     <small>Obligatorio</small>
                 </div>
                 <div class="recordarme bottom">
                     <input type="checkbox" name="recordarme" id="recordarme">
                     <label for="recordarme">Recordarme</label>
-                </div>
-                <div class="error bottom">
-                    <small>La combinacion de email y contraseña ingresada no es valida</small>
                 </div>
                 <button>Ingresar</button>
             </form>
