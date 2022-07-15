@@ -1,0 +1,26 @@
+.detail main .imagenes,
+.detail main .imagenes .img-principal,
+.detail main .imagenes .img-principal img,
+.detail main .imagenes .img-secundarias,
+.detail main .relacionados img,
+.detail main .relacionados{
+    width: 100%;
+}
+.detail main .imagenes .img-secundarias img{
+    width: 24%;
+}
+.detail main .relacionados article{
+    width:48%;
+}
+.detail main .product-detail small{
+    font-size: 24px;
+    color: green;
+}
+.detail main .product-detail span{
+    font-size: 24px;
+    color: grey;
+    text-decoration: line-through;
+}
+.detail main .product-detail .precio{
+    font-size: 3rem;
+}
