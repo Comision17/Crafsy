@@ -98,26 +98,43 @@
             </article>
         </section>
         <section class="Numeros">
-            <h3>Subtotal</h3>
-            <div class="valor-productos">
-                <p>$190000</p>
-                <p>$190000</p>
-                <p>$190000</p>
-                <div class="suma"><i class="fas fa-plus"></i></div>
-            </div>
-            <span>$570000</span>
-            <h3>Total de productos</h3>
-            <p class="precio-principal">$285000</p>
-            <h3>¡Ahorro Total!</h3>
-            <p>-$285000</p>
-            <h3>Calcula tu envio</h3>
-            <div class="postal">
-                <label for="envio">Codigo postal</label>
-                <input type="number" name="envio" id="envio" placeholder="5501">
-            </div>
-            <h3>Precio Final</h3>
-            <p class="Precio final">$286000</p>
-            <button>Comprar Productos</button>
+            <form action="" method="post">
+                <h3>Subtotal</h3>
+                <div class="valor-productos">
+                    <p>$190000</p>
+                    <p>$190000</p>
+                    <p>$190000</p>
+                    <div class="suma"><i class="fas fa-plus"></i></div>
+                </div>
+                <span>$570000</span>
+                <p class="precio-principal">$285000</p>
+                <div class="precios">
+                    <div class="precios-categorias">
+                        <h3>¡Ahorro Total!</h3>
+                        <p class="precio-ahorro">-$285000</p>
+                    </div>
+                    <div class="precios-categorias">
+                        <h3>Precio Final</h3>
+                        <p class="Precio-final">$286000</p>
+                    </div>
+                </div>
+                <h3>Calcula tu envio</h3>
+                <div class="postal">
+                    <label for="envio">Codigo postal</label>
+                    <input type="number" name="envio" id="envio" placeholder="5501">
+                </div>
+                
+                <div class="input" >
+                    <input type="number" name="precio" id="precio" value="286000">
+                </div>
+                <div class="ofertas">
+                    <input type="checkbox" name="ofertas" id="ofertas">
+                    <label for="ofertas">Desea recibir nuestras proximas ofertas?</label>
+                </div>
+                <div class="botones">
+                    <button type="submit">Comprar Productos</button>
+                </div>
+            </form>
         </section>
     </main>
 </body>
